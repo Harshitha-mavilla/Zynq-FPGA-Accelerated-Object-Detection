@@ -1,9 +1,17 @@
-Real-Time Object Detection Using Hardware-Accelerated CNN on Xilinx Zynq FPGA with Arm Processor
 🚀 Project Overview
 
-This project demonstrates deployment of YOLOv5 object detection on a Xilinx Zynq FPGA platform with ARM processor.
+This project demonstrates real-time object detection using YOLOv5 deployed on the PYNQ-Z2 board (Zynq-7000 SoC) featuring an ARM Cortex-A9 processor and FPGA fabric.
 
-The system evaluates CPU-based inference and simulates DPU hardware acceleration to analyze performance improvements in embedded AI applications.
+The system evaluates:
+
+CPU-based inference on ARM processor
+
+Simulated / Hardware-accelerated inference (DPU concept)
+
+Performance comparison (Latency & FPS)
+
+This project highlights how FPGA-based acceleration improves embedded AI performance.
+
 
 Architecture Image: 
 
@@ -16,19 +24,24 @@ Architecture Image:
 
 YOLOv5-based object detection
 
+Deployment on PYNQ-Z2 FPGA Board
+
 CPU vs Hardware Acceleration comparison
 
-Performance benchmarking (Latency & FPS)
+Performance benchmarking (Inference Time & FPS)
 
-Embedded deployment workflow
+Embedded AI workflow
 
 Vitis AI quantization and compilation pipeline
 
+Jupyter Notebook based implementation
 
 
-⚙️ Tools & Technologies
 
-Xilinx PYNQ FPGA
+
+🧰 Tools & Technologies
+
+PYNQ-Z2 FPGA Board
 
 Vitis AI
 
@@ -39,6 +52,10 @@ Python
 OpenCV
 
 NumPy
+
+Jupyter Notebook
+
+
 
 📊 Performance Results
 
