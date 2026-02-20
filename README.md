@@ -28,7 +28,7 @@ Vitis AI quantization and compilation pipeline
 
 ⚙️ Tools & Technologies
 
-Xilinx Zynq-7000 FPGA
+Xilinx PYNQ FPGA
 
 Vitis AI
 
