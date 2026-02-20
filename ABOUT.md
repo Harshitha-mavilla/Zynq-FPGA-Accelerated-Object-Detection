@@ -1,0 +1,1 @@
+Hardware-accelerated YOLOv5 object detection implemented on Xilinx Zynq FPGA with ARM processor. The project evaluates real-time inference performance on CPU and compares it with DPU-based hardware acceleration. It focuses on optimizing latency and throughput for embedded edge AI applications. Demonstrates efficient deployment of deep learning models on FPGA platforms.
